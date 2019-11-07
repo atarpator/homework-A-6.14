@@ -1,0 +1,50 @@
+.container {
+  max-width: 900px;  
+}
+
+h1, h3, #buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2, h3 {
+  display: inline-block;
+  text-align: center;  
+}
+
+button {
+  width: 200px;
+  margin-top: 15px;
+}
+
+.game-field {
+  	background-color: orange;
+  	min-height: 10vh;
+  	margin: 1px 1px 1px 1px;
+  	line-height: 10vh;
+}
+
+.target {
+  	background-color: green;
+  	color: white;
+  	font-size: 24pt;
+  	text-align: center;
+}
+
+.miss {
+  	background-color: red;
+}
+
+.col {
+   cursor: pointer;
+}
+
+#win-message {
+  display: flex;
+  justify-content: center; 
+}
+
+#message {
+  text-align:center;
+}
